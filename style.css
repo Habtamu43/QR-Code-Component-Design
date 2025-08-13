@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+.qr-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    max-width: 320px;
+    gap: 5px;
+}
+
+.qr-code img {
+    max-width: 310px;
+    height: auto;
+}
+.front{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mentor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
